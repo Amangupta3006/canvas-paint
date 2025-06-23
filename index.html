@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class=" mx-auto p-2" id="main-div">
+            <div class="color2">
+                <label for="colorPicker">Pick Color:</label>
+                <input type="color" id="colorPicker" value="#0000ff">
+            </div>
+            <div>
+                <canvas id="drawCanvas" width="600" height="600"></canvas>
+            </div>
+            <div class="reset">
+                <button id="clearbtn" class="btn btn-outline-danger">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

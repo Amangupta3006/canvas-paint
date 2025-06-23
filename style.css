@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.color2 {
+    display: flex;
+    width: 100%;
+}
+
+#main-div {
+    gap: 10px;
+}
+
+canvas {
+    border: 2px solid black;
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
